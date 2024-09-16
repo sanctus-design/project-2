@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: aqua;
+}
+
+.card {
+    background: black;
+    color: aliceblue;
+    width: 45%;
+    padding: 50px;
+    border-radius: 15px;
+    margin: 20px auto;
+    text-align: justify;
+    font-size: 1.1rem;
+}
+#text {
+    background: red;
+    padding: 2px 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.card-two {
+    background: rgb(82, 46, 46);
+    color: aliceblue;
+    width: 45%;
+    margin: 20px auto;
+    text-align: justify;
+    font-size: 1.1rem;
+    display: none;
+}
+.card-head {
+    color: black;
+ background: wheat;
+ padding: 5px 10px;
+}
+.card-body {
+    padding: 20px;
+}
